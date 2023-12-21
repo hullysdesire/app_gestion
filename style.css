@@ -63,11 +63,11 @@ flex-shrink: 0; } */
 
  h1{
     padding: 25px;
-    color: #ffffff;
+    color: #000000;
  }
 
  p{
-    color: #ffffff;
+    color: #000000;
  }
 
  .form_admin{
@@ -113,7 +113,7 @@ flex-shrink: 0; } */
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: black  15px;
-    color: white;
+    color: rgb(0, 0, 0);
     
  }
 
@@ -168,7 +168,7 @@ flex-shrink: 0; } */
 
 table tr td{
     vertical-align: middle;
-    color: white;
+    color: rgb(22, 21, 21);
 }
 
 td button{
@@ -182,7 +182,7 @@ td button i{
 
 .modal-header{
     background: #0d6efd;
-    color: #fff;
+    color: #131010;
 }
 
 .modal-body form {
@@ -238,13 +238,13 @@ form .inputField > div{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(14, 13, 13);
 }
 
 form .inputField > div label{
     font-size: 20px;
     font-weight: 500;
-    color: white;
+    color: rgb(3, 3, 3);
 }
 
 #userForm form .inputField > div label::after{
@@ -267,7 +267,7 @@ form .inputField > div input{
 
 
 #readData form .inputField > div input{
-    color: #ffffff;
+    color: #181515;
     font-size: 18px;
 }
 
