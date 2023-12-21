@@ -1,0 +1,295 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-size: 20px;
+   
+}
+
+
+/* ************PREMIERE INTERFACE DE BIENVENUE / INTERFACE PRINCIPALE */
+
+
+
+
+
+
+button{
+    margin-left: 150px;
+    border-bottom: solid 1px red;
+    height: 40px;
+    width:140px;
+    border-radius: 5px;
+
+/* @media (min-width: 768px) { 
+width: 150px;
+height: 30px;
+flex-shrink: 0; } */
+ }
+
+
+ /* *******Debut Centrée l'interface premier de cette plateforme **********/
+
+
+
+ .connect_admin{
+    width: auto;
+    height: 100%;
+    background: linear-gradient(to bottom, #3a6186, #89253e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: black  15px;
+    color: white;  
+ }
+
+
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.logo2 img{
+    margin: 0 auto;
+    padding: 20px;
+ }
+
+ h1{
+    padding: 25px;
+    color: #ffffff;
+ }
+
+ p{
+    color: #ffffff;
+ }
+
+ .form_admin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.51);
+    border: transparent 2px solid;
+    border: #00000099 solid 3px;
+    
+
+
+ }
+
+ input{
+    margin-left: 20px;
+    border-bottom: solid 1px red;
+    height: 40px;
+    width:400px;
+
+ }
+
+ label{
+    margin: 0 auto;
+ }
+
+ /* *******C'est l'interface de connection adminnistrateur Fin */
+
+
+ /* *******C'est l'interface de connection de connection Apprenant Debut */
+
+
+
+ .connect_apprenant{
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(to bottom, #3a6186, #89253e);
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: black  15px;
+    color: white;
+    
+ }
+
+
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ img{
+    margin: 0 auto;
+    padding: 20px;
+ }
+
+ h1{
+    padding: 25px;
+ }
+
+
+ .form_apprenant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: rgba(240, 234, 234, 0.398);
+    border: transparent 2px solid;
+    margin-bottom: 20px;
+
+
+ }
+
+ input{
+    margin-left: 20px;
+    border-bottom: solid 1px red;
+    height: 40px;
+    width:400px;
+    background-color: rgba(255, 255, 255, 0.684);
+
+ }
+
+ label{
+    margin: 0 auto;
+ }
+
+
+
+
+
+
+
+table tr td{
+    vertical-align: middle;
+    color: white;
+}
+
+td button{
+    margin: 5px;
+}
+
+td button i{
+    font-size: 20px;
+}
+
+
+.modal-header{
+    background: #0d6efd;
+    color: #fff;
+}
+
+.modal-body form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.modal-body form .imgholder{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgholder .upload{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 100%;
+    height: 100px;
+    background: #ffffff4d;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.imgholder:hover .upload{
+    display: flex;
+}
+
+.imgholder .upload input{
+    display: none;
+}
+
+.modal-body form .inputField{
+    flex-basis: 68%;
+    border-left: 5px groove blue;
+    padding-left: 20px;
+}
+
+form .inputField > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form .inputField > div label{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+#userForm form .inputField > div label::after{
+    content: "*";
+    color: red;
+}
+
+form .inputField > div input{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid blue;
+}
+
+.modal-footer .submit{
+    font-size: 18px;
+}
+
+
+#readData form .inputField > div input{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+
+
+.btn{
+    width: 50px;
+    height: 50px;
+    
+}
+
+img{
+    width: 100px;
+    height:100px;
+
+}
+
+.p-3{
+    background: linear-gradient(to bottom, #3a6186, #89253e);
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
